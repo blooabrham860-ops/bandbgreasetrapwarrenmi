@@ -1,0 +1,172 @@
+    <br><br><br><br>
+
+<div id="faq-section" class="faq-section-wrapper">
+
+  <style>
+    /* ============== Scoped FAQ styles ============== */
+    .faq-section-wrapper {
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #715215 0%, #17568e 50%, #50642c 100%);
+      border-radius: 16px;
+      color: #e0e0e0;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      margin: 0 15px;
+    }
+
+    .faq-section-wrapper .faq-title {
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: antiquewhite;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+      margin-bottom: 2.5rem;
+    }
+
+    .faq-section-wrapper .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .faq-section-wrapper .faq-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .faq-section-wrapper .faq-item {
+      background: rgba(255,255,255,0.92);
+      color: #222;
+      padding: 1.6rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .faq-section-wrapper .faq-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+    }
+
+    .faq-section-wrapper .faq-question {
+      margin: 0 0 0.9rem 0;
+      font-size: 1.32rem;
+      font-weight: 700;
+      color: #0d47a1;
+      line-height: 1.35;
+    }
+
+    .faq-section-wrapper .faq-answer {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Make the image side sticky/fixed on scroll */
+    .faq-section-wrapper .faq-image-side {
+      position: sticky;
+      top: 20px; /* Adjust this value if you have a fixed navbar/header (e.g., 80px or 100px) */
+      align-self: start; /* Keeps it aligned to the top of the grid row */
+      height: fit-content; /* Prevents stretching */
+    }
+
+    .faq-section-wrapper .faq-image-side img {
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      box-shadow: 0 16px 38px rgba(0,0,0,0.25);
+      object-fit: cover;
+    }
+
+    /* Mobile: Disable sticky behavior and revert to normal flow */
+    @media (max-width: 992px) {
+      .faq-section-wrapper .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .faq-section-wrapper .faq-title {
+        font-size: 2.1rem;
+      }
+
+      .faq-section-wrapper .faq-image-side {
+        position: static; /* No sticky on mobile */
+        top: auto;
+      }
+    }
+  </style>
+
+  <div class="faq-wrapper">
+    <h2 class="faq-title" style="font-size: 35px;">Frequently Asked Questions</h2>
+
+    <div class="faq-grid">
+      <!-- Left column - Questions & Answers -->
+      <div class="faq-content">
+        <div class="faq-item">
+          <h4 class="faq-question">1. How often should a commercial grease trap be cleaned?</h4>
+          <div class="faq-answer">
+            Most municipalities require grease traps to be cleaned once the combined volume of fats, oils, and grease and solids reaches 25% of the total liquid depth of the trap. For many busy restaurants, this translates to grease interceptor cleaning near me every 1 to 3 months, though high-volume kitchens may need monthly service.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">2. What happens if you don't clean a grease trap?</h4>
+          <div class="faq-answer">
+            Failing to perform grease interceptor maintenance leads to the FOG hardening, which blocks the outlet pipe and causes sewage to back up into the kitchen sinks or floor drains. Additionally, the decomposition of accumulated food waste releases sulfuric acid, which damages the steel or concrete tank and creates foul, rotten-egg odors.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">3. Can I use enzymes instead of pumping my grease trap?</h4>
+          <div class="faq-answer">
+            While biological additives and enzymes can help break down some fats, they are not a replacement for physical pumping. They can sometimes emulsify grease, allowing it to pass down the line and re-solidify later, causing municipal blockages. The best way to clean grease trap infrastructure is always professional evacuation and scraping.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">4. Who is responsible for grease trap maintenance?</h4>
+          <div class="faq-answer">
+            In almost all jurisdictions, the business owner (the waste generator) is legally responsible for the maintenance and condition of the grease trap. Even if you lease the building, the fines for non-compliance or city sewer blockages caused by your kitchen fall on your business, making reliable trap maintenance essential.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">5. Why does my grease trap smell after cleaning?</h4>
+          <div class="faq-answer">
+            If a smell persists after cleaning, it often means the gasket on the trap lid is worn out or not seated correctly, allowing sewer gas to escape. It could also indicate that the vent line is clogged or that the service provider did not scrape the bacterial buildup from the walls of the trap.
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 100px; font-family: Verdana, Geneva, Tahoma, sans-serif">
+          <a href="tel:801-346-9061" class="btn-hover-bg btn btn-secondary text-white py-2 px-4 me-3" style="background-color: red; border: solid white; font-size:medium;">CLICK HERE TO CALL US (801) 346-9061</a>
+        </div>
+      </div>
+
+      <!-- Right column - Image (now sticky on desktop) -->
+      <div class="faq-image-side">
+        <img src="static/images/lockley.jpg" alt="Professional Grease trap cleaning service" />
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">States In USA</h2>
+        <div class="row">
+            aloomaidallfotter
+        </div>
+        </section>
+    </div>
+
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">Most popular cities we serve</h2>
+        <div class="row">
+            aloomaidallfottecity
+        </div>
+        </section>
+    </div>
